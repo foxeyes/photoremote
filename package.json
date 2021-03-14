@@ -1,0 +1,21 @@
+{
+  "name": "photoremote",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Remote control for photo scanner hardware",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxeyes/photoremote.git"
+  },
+  "author": "alex.sova@pm.me",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/foxeyes/photoremote/issues"
+  },
+  "homepage": "https://github.com/foxeyes/photoremote#readme"
+}
