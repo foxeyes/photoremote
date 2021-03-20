@@ -11,4 +11,18 @@ html, body {
 
   color: var(--color);
   background-color: var(--bg-color);
+
+  overflow: hidden;
+}
+
+rotate-content {
+  position: absolute;
+  display: block;
+  overflow: auto;
+  height: 100vw;
+  width: 100vh;
+  top: -100vw;
+  left: 0;
+  transform: rotate(90deg);
+  transform-origin: bottom left;
 }
