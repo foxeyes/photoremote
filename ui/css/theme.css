@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap');
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+:root {
+  --color-theme-1: rgb(27, 27, 27);
+  --color-theme-2: rgb(190, 228, 193);
+  
+  --color-theme-3: rgb(174, 248, 180);
+
+  --color-shade: rgba(0, 0, 0, 0.7);
+  --color-light: rgba(255, 255, 255, 0.2);
+
+  --tap-zone-size: 40px;
+
+  --gap-min: 2px;
+  --gap-mid: 10px;
+  --gap-max: 20px;
+
+  --gap-alt: 4px;
+
+  --side-panel-width: 240px;
+
+  --ui-font-size: 18px;
+
+  --ui-radius: 2px;
+  --alt-radius: 4px;
+}
