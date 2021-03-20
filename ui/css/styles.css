@@ -16,13 +16,14 @@ html, body {
 }
 
 rotate-content {
+  --scale: 1.6;
   position: absolute;
   display: block;
-  overflow: auto;
-  height: 100vw;
-  width: 100vh;
-  top: -100vw;
+  overflow: hidden;
+  height: calc(100vw / var(--scale));
+  width: calc(100vh / var(--scale));
+  top: calc(-100vw / var(--scale));
   left: 0;
-  transform: rotate(90deg);
+  transform: rotate(90deg) scale(var(--scale));
   transform-origin: bottom left;
 }
