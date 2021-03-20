@@ -16,7 +16,7 @@ html, body {
 }
 
 rotate-content {
-  --scale: 1.6;
+  --scale: 2;
   position: absolute;
   display: block;
   overflow: hidden;
