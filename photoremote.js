@@ -6,5 +6,6 @@ const server = new Server(port);
 server.start();
 
 const url = `http://localhost:${port}/ui/`;
-const start = (process.platform == 'darwin'? 'open': process.platform == 'win32'? 'start': 'xdg-open');
-child.exec(start + ' ' + url);
+//const start = (process.platform == 'darwin'? 'open': process.platform == 'win32'? 'start': 'xdg-open');
+// child.exec(start + ' ' + url);
+child.exec(`chromium-browser -kiosk ${url}`);
