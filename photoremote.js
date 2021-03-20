@@ -7,4 +7,4 @@ server.start();
 
 const url = `http://localhost:${port}/ui/`;
 const start = (process.platform == 'darwin'? 'open': process.platform == 'win32'? 'start': 'xdg-open');
-child.exec(start + ' -kiosk ' + url);
+child.exec(start + ' ' + url);
